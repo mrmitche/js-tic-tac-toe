@@ -1,0 +1,40 @@
+/* Resets */
+html, body, ul, h1 , h3, p { margin: 0; padding: 0; }
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.box {
+    /*max-width: 33.33%;*/
+	max-width: 22vh;
+	height: 22vh;
+	background: white;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.score {
+    text-align: center;
+    max-width: 33vh;
+}
+
+#reset {
+    display: none;
+	/*Format like button*/
+	
+}
+
+#reset p {
+    display: inline;
+    padding: 2px 5px;
+	border-radius: 5px;
+	background: red;
+	box-shadow: 1px 1px darkred;
+	cursor: pointer;
+}
